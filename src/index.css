@@ -1,0 +1,28 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --color-brand-purple: #6d28d9;
+  --color-brand-purple-hover: #5b21b6;
+  --color-brand-purple-light: #f5f3ff;
+  --color-brand-coral: #ff6b4a;
+  --color-brand-coral-hover: #e04f2f;
+  --color-brand-coral-light: #fff5f2;
+  --color-charcoal: #1f2937;
+  --color-muted-gray: #4b5563;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    background-color: #fcfcfd;
+    color: #1f2937;
+    word-break: keep-all;
+    overflow-x: hidden;
+  }
+}
